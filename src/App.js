@@ -2,6 +2,7 @@ import './App.css';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Profile from './components/Profile';
+import Counter from './components/counter';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Profile name="someone" lastname="kjlkj">
         <h1>child of prop</h1>
       </Profile>
+      <Counter></Counter>
     </div>
   );
 }
