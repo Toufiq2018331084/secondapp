@@ -1,8 +1,10 @@
 import './App.css';
+import ClassEvent from './components/ClassEvent';
+import Counter from './components/counter';
+import FunctionEvent from './components/FunctionEvent';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Profile from './components/Profile';
-import Counter from './components/counter';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <h1>child of prop</h1>
       </Profile>
       <Counter></Counter>
+      <FunctionEvent></FunctionEvent>
+      <ClassEvent></ClassEvent>
     </div>
   );
 }
