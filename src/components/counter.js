@@ -9,7 +9,8 @@ class Counter extends Component{
       //  this.increment = this.increment.bind(this);
         this.decrement = this.decrement.bind(this);
     }
-
+    ///incremtn =()=> is the most reccomended method
+    
     // increment = ()=>{
     //     this.setState({
     //         counter: this.state.counter+1,
